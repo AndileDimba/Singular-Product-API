@@ -32,7 +32,7 @@ namespace Singular_Product_API.Middleware
             context.Response.ContentType = "application/json";
             HttpStatusCode statusCode = HttpStatusCode.InternalServerError;
 
-            var errorDetails = new ErrorDetails
+            var errorDetails = new ErrorDetailsDTO
             {
                 ErrorMessage = ex.Message,
                 ErrorType = "Failure"

@@ -1,11 +1,12 @@
-﻿using System;
+﻿using Singular_Product_API.DTOs;
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
-using Singular_Product_API.DTOs;
 
-namespace Singular_Product_API.IRepositories
+namespace Singular_Product_API.Repositories
 {
     public interface IProductRepository
     {

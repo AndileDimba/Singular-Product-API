@@ -1,6 +1,5 @@
 ﻿using Microsoft.Extensions.Configuration;
 using Singular_Product_API.Exceptions;
-using Singular_Product_API.IRepositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;

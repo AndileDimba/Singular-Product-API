@@ -6,6 +6,6 @@
         public int productId { get; set; }
         public double salePrice { get; set; }
         public int saleQty { get; set; }
-        public string saleDate { get; set; }
+        public string? saleDate { get; set; }
     }
 }
